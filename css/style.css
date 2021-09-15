@@ -1,0 +1,115 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+/*  -------  */
+
+h1 {
+	color: rgb(255, 9, 9);
+}
+
+span {
+	color: red;
+}
+
+.link a {
+	color: #000;
+}
+
+.list2 .link2 a {
+	color: rgba(0, 0, 0, 0.527);
+}
+
+.title2 {
+	color: crimson;
+}
+
+.title3 {
+	color: darkslateblue;
+}
+
+.dom1 span {
+	color: rgb(156, 40, 147);
+}
+
+.dom2 .title3 {
+	color: rgb(73, 0, 104);
+}
+
+.dom2 .text {
+	color: rgb(107, 0, 153);
+}
+
+.dom2 .list {
+	color: rgb(181, 8, 255);
+}
+
+#d3 {
+	color: rgb(255, 196, 1);
+}
+
+.dom4,
+.dom4 .title3 {
+	color: forestgreen;
+}
+
+.dom5 > * {
+	color: rgb(135, 34, 139);
+}
+
+.dom6 .title3 ~ .list {
+	color: green;
+}
+
+.host2 .text {
+	color: rgb(149, 0, 255);
+}
+
+.host3 .list2 {
+	color: lawngreen;
+}
+
+.host3 .list,
+.host4 .list {
+	color: lightseagreen;
+}
+
+.lists {
+	color: rgb(9, 134, 92);
+}
+
+.linka span,
+.linka a,
+.foot1 a {
+	color: rgb(204, 0, 255);
+}
+
+.host7 li {
+	color: mediumslateblue;
+}
